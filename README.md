@@ -6,20 +6,20 @@
 
 ## Клонирование репозитория
 
-   Клонируем репозиторий:   `git clone https://github.com/Peca2003/Blogs.git`
+   С помощью следующей команды клонируем репозиторий:   `git clone https://github.com/kumachev1/Blogs.git`
 
-2. Создание виртуального окружения
+## Виртуальное окружение
 
-   Открываем проект в PyCharm.
+   Создаем виртуальное окружение командой:   `python3 -m venv venv`
 
-   Создаем виртуальное окружение:   `python3 -m venv venv`
+   Для активации виртуального окружения на MacOS и Linux испольуем следующую команду: `source venv/bin/activate`
 
-   Активизируем виртуальную среду:   `source venv/bin/activate`
+   Для Windows - venv\Scripts\activate
    
-3. Установка зависимостей
+## Установка зависимостей
 
-   Установим зависимости:   `pip install -r requirements.txt`
+   Установим зависимости командой: `pip install -r requirements.txt`
    
-4. Запуск сервера
+## Запуск сервера
 
    Запустим сервер:   `python manage.py runserver`
