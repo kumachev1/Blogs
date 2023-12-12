@@ -12,7 +12,7 @@
 
    Для активации виртуального окружения на MacOS и Linux испольуем следующую команду: `source venv/bin/activate`
 
-   Для Windows - venv\Scripts\activate
+   Для Windows - `venv\Scripts\activate`
    
 ## Установка зависимостей
 
